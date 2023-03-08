@@ -1,0 +1,55 @@
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 16%;
+}
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginPage input {
+  margin-bottom: 30px;
+}
+.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+.registerPage div {
+  margin-bottom: 30px;
+}
+.registerPage input {
+  margin-left: 20px;
+}
+.registerPage label {
+  display: block;
+  width: 6vw;
+}
+.formContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer div {
+  display: flex;
+}
+.formContainer h2 {
+  margin-bottom: 30px;
+}
